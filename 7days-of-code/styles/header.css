@@ -1,0 +1,50 @@
+.cabecalho {
+	display: flex;
+}
+
+.logo-nome {
+	display: flex;
+	align-items: center;
+	margin-left: 8em;
+}
+
+.opcoes-meio {
+	align-items: center;
+	display: flex;
+	margin: 2em auto;
+}
+
+.login {
+	align-items: center;
+	display: flex;
+	margin: 0 8em 0 12em;
+}
+
+.opcoes__cabecalho,
+.login__cabecalho {
+	margin: 0 1em;
+	height: 500;
+	text-decoration: none;
+	color: var(--cinza-texto);
+	font-size: 16px;
+}
+
+.logo {
+	margin-right: 0.7em;
+}
+
+.nome {
+	color: var(--texto-padrao);
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.cadastro__cabecalho {
+	background: var(--vermelho-texto);
+	padding: 12px 18px;
+	border-radius: 8px;
+	text-decoration: none;
+	color: var(--branco-fundo);
+	font-size: 16px;
+	font-weight: 500;
+}

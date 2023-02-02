@@ -1,0 +1,171 @@
+.descricao {
+	margin-top: 6em;
+	text-align: center;
+}
+
+.titulo__descricao {
+	font-weight: 600;
+	color: var(--vermelho-texto);
+}
+
+.pergunta__descricao {
+	font-weight: 600;
+	font-size: 48px;
+	margin: 0.5em 0;
+	color: var(--texto-padrao);
+}
+
+.texto__descricao {
+	display: flexbox;
+	width: 52%;
+	margin: 2em auto;
+	color: var(--cinza-texto);
+	font-size: 20px;
+}
+
+.informacoes {
+	margin: 8em 8em;
+}
+
+.lista__informacoes {
+	display: flex;
+	margin: 0 0;
+}
+
+.titulo__lista {
+	font-size: 60px;
+	font-weight: 600;
+	color: var(--vermelho-texto);
+}
+
+.info:first-of-type {
+	margin-right: 6em;
+}
+
+.subtitulo__lista {
+	margin: 1em 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.texto__lista {
+	color: var(--cinza-texto);
+	width: 85%;
+}
+
+.apresentacao {
+	margin-top: 10em;
+	text-align: center;
+}
+
+.exclamacao {
+	display: inline-block;
+	font-weight: 500;
+	font-size: 14px;
+	color: var(--vermelho-texto);
+	margin: 1.5em 0;
+	padding: 0.5em 1em;
+	background: rgba(195, 25, 25, 0.03);
+	border-radius: 20px;
+}
+
+.titulo__apresentacao {
+	margin-bottom: 0.5em;
+	color: var(--texto-padrao);
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.descricao__apresentacao {
+	color: var(--cinza-texto);
+	font-size: 20px;
+	margin-bottom: 2em;
+}
+
+.imagem__apresentacao {
+	width: 85%;
+	margin-bottom: 5em;
+}
+
+.emprego {
+	margin: 1em 0 3em 0;
+}
+
+.area__ofertas {
+	color: var(--texto-padrao);
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.vaga__emprego {
+	color: var(--texto-padrao);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.tempo__emprego,
+.salario__emprego {
+	color: var(--cinza-texto);
+	margin-top: 2em;
+}
+
+.salario__emprego {
+	margin-left: 2em;
+}
+
+.descricao__emprego {
+	display: flex;
+}
+
+.emprego {
+	padding: 1.5em;
+	border-width: 1.5px;
+	border-radius: 20px;
+	border-style: solid;
+	border-color: var(--cor-borda);
+}
+
+.container__emprego {
+	display: block;
+	margin-block: 0 8em;
+	width: 55%;
+	text-align: left;
+}
+
+.ofertas {
+	margin-left: 20em;
+}
+
+.colaboradores {
+	background: rgba(195, 25, 25, 0.035);
+	padding: 3em;
+	text-align: center;
+	margin: 0 8em 10em 8em;
+	border-radius: 10px;
+}
+
+.titulo__colaboradores {
+	color: var(--vermelho-texto);
+	font-size: 14px;
+	font-weight: 600;
+	margin: 1em 0 2em 0;
+}
+
+.texto__colaboradores {
+	font-size: 36px;
+	font-weight: 500;
+	color: var(--texto-padrao);
+	margin-bottom: 1em;
+}
+
+.nome__colaboradores {
+	margin: 1em 0;
+	color: var(--texto-padrao);
+	font-weight: 500;
+}
+
+.profissao__colaboradores {
+	color: var(--cinza-texto);
+	font-size: 14px;
+	font-weight: 400;
+}

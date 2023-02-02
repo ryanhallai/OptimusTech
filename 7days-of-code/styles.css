@@ -1,0 +1,21 @@
+@import url("styles/header.css");
+@import url("styles/body.css");
+@import url("styles/footer.css");
+
+:root {
+	--branco-fundo: #ffffff;
+	--vermelho-texto: #8e2424;
+	--cinza-texto: #667085;
+	--texto-padrao: #101828;
+	--cinza-footer: #f9fafb;
+	--vermelho-claro: #c31919; /* 3% */
+	--fonte-principal: "Inter";
+	--cor-borda: #d0d5dd;
+}
+
+body {
+	background-color: var(--branco-fundo);
+	font-family: var(--fonte-principal);
+	font-weight: 400;
+	font-size: 16px;
+}
